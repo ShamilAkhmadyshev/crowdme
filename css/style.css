@@ -509,7 +509,7 @@ main {
           flex: 1 1 auto;
 }
 .glasses__container {
-  max-height: 490px;
+  max-height: 600px;
   padding: 0 0 0 150px;
   margin-bottom: 100px;
 }
@@ -802,19 +802,6 @@ main {
     margin-top: 40px;
   }
 }
-.glasses__column5 {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-@media (max-width: 769px) {
-  .glasses__column5 {
-    margin-top: 40px;
-  }
-}
 .glasses__glass {
   display: inline-block;
   position: relative;
@@ -863,18 +850,19 @@ main {
   display: inline-block;
   max-width: 670px;
   line-height: 190%;
+  padding: 0 5px 0 0;
 }
 @media (max-width: 920px) {
   .glasses__subtext {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-left: 0;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-left: 20px;
     text-align: center;
-    padding: 0 10px;
+    padding: 0 10 0 0px;
     margin-top: 20px;
   }
 }
