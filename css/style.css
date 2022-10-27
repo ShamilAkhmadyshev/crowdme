@@ -745,40 +745,40 @@ main {
   }
 }
 .glasses__1::before {
-  content: url(/img/glasses/1.png);
+  content: url(https://i.ibb.co/xJyNzRT/1.png);
   position: absolute;
   bottom: -6px;
   left: -50px;
   padding: 0 7px 0 0;
 }
 .glasses__1:hover::before {
-  content: url(/img/glasses/before1.jpg);
+  content: url(https://i.ibb.co/XCb1vwh/before1.jpg);
   position: absolute;
   bottom: -6px;
   left: -50px;
 }
 .glasses__2::before {
-  content: url(/img/glasses/2.jpg);
+  content: url(https://i.ibb.co/Pg2bH0r/2.jpg);
   position: absolute;
   bottom: -6px;
   left: -50px;
   padding: 0 7px 0 0;
 }
 .glasses__2:hover::before {
-  content: url(/img/glasses/before2.png);
+  content: url(https://i.ibb.co/QfYWDj6/before2.png);
   position: absolute;
   bottom: -6px;
   left: -50px;
 }
 .glasses__3::before {
-  content: url(/img/glasses/3.jpg);
+  content: url(https://i.ibb.co/MnWM6ZD/3.jpg);
   position: absolute;
   bottom: -6px;
   left: -50px;
   padding: 0 7px 0 0;
 }
 .glasses__3:hover::before {
-  content: url(/img/glasses/before3.png);
+  content: url(https://i.ibb.co/dg61PvY/before3.png);
   position: absolute;
   bottom: -6px;
   left: -50px;
@@ -1296,13 +1296,13 @@ main {
   margin: 44px 0 0 0;
 }
 .blok__loading::before {
-  content: url(/img/buildings/lowload.svg);
+  content: url(https://i.ibb.co/kqx9B6z/lowload.webp);
   position: absolute;
   left: 0;
   z-index: 3;
 }
 .blok__loading::after {
-  content: url(/img/buildings/load.svg);
+  content: url(https://i.ibb.co/h1d3z90/load.webp);
   position: absolute;
   left: 0;
   z-index: 2;
@@ -1312,13 +1312,13 @@ main {
   margin: 44px 0 0 0;
 }
 .blok__loading2::before {
-  content: url(/img/buildings/highload.svg);
+  content: url(https://i.ibb.co/MBgnPgg/highload.webp);
   position: absolute;
   left: 0;
   z-index: 3;
 }
 .blok__loading2::after {
-  content: url(/img/buildings/load.svg);
+  content: url(https://i.ibb.co/h1d3z90/load.webp);
   position: absolute;
   left: 0;
   z-index: 2;
