@@ -82,8 +82,8 @@ h1, h2, h3, h4, h5, h6 {
   font-display: swap;
 }
 .wrapper {
-  height: 100%;
-  overflow: auto;
+  min-height: 100%;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
