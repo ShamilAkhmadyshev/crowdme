@@ -407,6 +407,11 @@ main {
             transform: scale(2);
   }
 }
+@media (max-width: 400px) {
+  .start .start__arrows {
+    margin-left: -90px;
+  }
+}
 .start .start__arrow1 {
   position: absolute;
   bottom: 0;

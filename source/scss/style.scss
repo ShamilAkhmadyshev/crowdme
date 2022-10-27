@@ -320,6 +320,9 @@ main {
             margin: 50px 0 0 -80px;
             transform: scale(2);
         }
+        @media (max-width: 400px) {
+            margin-left: -90px;
+        }
     }
 
     .start__arrow1 {
