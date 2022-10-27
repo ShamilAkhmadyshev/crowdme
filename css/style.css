@@ -509,7 +509,19 @@ main {
           flex: 1 1 auto;
 }
 .glasses__container {
+  max-height: 490px;
+  padding: 0 0 0 150px;
   margin-bottom: 100px;
+}
+@media (max-width: 1025px) {
+  .glasses__container {
+    padding: 0 0 0 110px;
+  }
+}
+@media (max-width: 920px) {
+  .glasses__container {
+    padding: 0 0 0 50px;
+  }
 }
 .glasses__row {
   display: -webkit-box;
@@ -519,11 +531,7 @@ main {
   margin: 0 0 0 0;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-@media (max-width: 920px) {
-  .glasses__row {
-    margin: 35px 0 65px 0;
-  }
+  margin: 35px 0 0 0;
 }
 @media (max-width: 550px) {
   .glasses__row {
@@ -781,7 +789,7 @@ main {
 }
 @media (min-width: 921px) {
   .glasses__body {
-    margin: 90px 0 0 0;
+    margin: 70px 0 0 0;
   }
 }
 @media (max-width: 430px) {
@@ -802,6 +810,11 @@ main {
       -ms-flex-align: center;
           align-items: center;
 }
+@media (max-width: 769px) {
+  .glasses__column5 {
+    margin-top: 40px;
+  }
+}
 .glasses__glass {
   display: inline-block;
   position: relative;
@@ -809,15 +822,12 @@ main {
 }
 @media (max-width: 920px) {
   .glasses__glass {
-    display: block;
-    top: 0;
-    left: 40%;
-  }
-}
-@media (max-width: 430px) {
-  .glasses__glass {
-    left: 35%;
-    margin-top: -30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 .glasses__text {
@@ -832,16 +842,15 @@ main {
 }
 @media (max-width: 920px) {
   .glasses__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     white-space: normal;
     margin: 0;
-    position: relative;
-    left: 10%;
-    margin-top: 20px;
-  }
-}
-@media (max-width: 430px) {
-  .glasses__text {
-    left: 0;
+    margin-top: 40px;
   }
 }
 .glasses__subtext {
@@ -857,7 +866,13 @@ main {
 }
 @media (max-width: 920px) {
   .glasses__subtext {
-    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0;
     text-align: center;
     padding: 0 10px;
     margin-top: 20px;

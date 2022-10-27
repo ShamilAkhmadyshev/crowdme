@@ -443,14 +443,14 @@ main {
         // @media (max-width: 310px) {
         //     margin-top: 40px;
         // }
-        // max-height: 490px;
-        // padding: 0 0 0 150px;
-        // @media (max-width: 1025px) {
-        //     padding: 0 0 0 110px;
-        // }
-        // @media (max-width: 920px) {
-        //     padding: 0 0 0 50px;
-        // }
+        max-height: 490px;
+        padding: 0 0 0 150px;
+        @media (max-width: 1025px) {
+            padding: 0 0 0 110px;
+        }
+        @media (max-width: 920px) {
+            padding: 0 0 0 50px;
+        }
         margin-bottom: 100px;
     }
 
@@ -462,8 +462,8 @@ main {
         padding: 0 0 0 20px;
         margin: 0 0 0 0; //!!!
         flex-wrap: wrap;
+        margin: 35px 0 0 0;
         @media (max-width: 920px) {
-            margin: 35px 0 65px 0;
         }
         @media (max-width: 550px) {
             flex-direction: column;
@@ -703,7 +703,7 @@ main {
             left: 0;
         }
         @media (min-width: 921px) {
-            margin: 90px 0 0 0;
+            margin: 70px 0 0 0;
         }
         @media (max-width: 430px) {
             margin: 0 0 0 -50px;
@@ -717,6 +717,9 @@ main {
     &__column5 {
         justify-content: center;
         align-items: center;
+        @media (max-width: 769px) {
+            margin-top: 40px;
+        }
     }
 
     &__glass {
@@ -724,14 +727,13 @@ main {
         position: relative;
         top: 15px;
         @media (max-width: 920px) {
-            display: block;
-            top: 0;
-            left: 40%;
+            display: flex;
+            justify-content: center;
         }
-        @media (max-width: 430px) {
-            left: 35%;
-            margin-top: -30px;
-        }
+        // @media (max-width: 430px) {
+        //     left: 35%;
+        //     margin-top: -30px;
+        // }
     }
 
     &__text {
@@ -744,15 +746,17 @@ main {
         display: inline-block;
         margin: 0 0 0 104px;
         @media (max-width: 920px) {
+            display: flex;
+            justify-content: center;
             white-space: normal;
             margin: 0;
-            position: relative;
-            left: 10%;
-            margin-top: 20px;
+            // position: relative;
+            // left: 10%;
+            margin-top: 40px;
         }
-        @media (max-width: 430px) {
-            left: 0;
-        }
+        // @media (max-width: 430px) {
+        //     left: 0;
+        // }
     }
 
     &__subtext {
@@ -766,7 +770,9 @@ main {
         max-width: 670px;
         line-height: 190%;
         @media (max-width: 920px) {
-            margin: 0;
+            display: flex;
+            justify-content: center;
+            margin-left: 0;
             text-align: center;
             padding: 0 10px;
             margin-top: 20px;
