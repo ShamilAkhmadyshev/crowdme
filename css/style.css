@@ -1356,7 +1356,7 @@ main {
   color: #484848;
 }
 .blok__details a::after {
-  content: url(/img/buildings/arrow.svg);
+  content: url(https://i.ibb.co/qxL7wm6/arrow.webp);
   position: relative;
   top: 3.5px;
   left: 7px;
