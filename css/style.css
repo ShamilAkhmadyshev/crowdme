@@ -533,6 +533,26 @@ main {
   padding: 0 0 0 150px;
   margin-bottom: 100px;
 }
+@media (max-width: 635px) {
+  .glasses__container {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 534px) {
+  .glasses__container {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 472px) {
+  .glasses__container {
+    margin-top: 150px;
+  }
+}
+@media (max-width: 430px) {
+  .glasses__container {
+    margin-top: 0;
+  }
+}
 @media (max-width: 1025px) {
   .glasses__container {
     padding: 0 0 0 110px;
