@@ -553,6 +553,11 @@ main {
     margin-top: 0;
   }
 }
+@media (max-width: 310px) {
+  .glasses__container {
+    margin-top: 40px;
+  }
+}
 @media (max-width: 1025px) {
   .glasses__container {
     padding: 0 0 0 110px;
