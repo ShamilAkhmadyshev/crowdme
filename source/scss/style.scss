@@ -336,23 +336,23 @@ main {
         max-height: 1810px;
     }
 
-    &__logcont {
-        display: flex;
-        justify-content: center;
-        position: relative;
-        top: 50%;
-        img {
-            width: 58px;
-            height: 58px;
-        }
-    }
+    // &__logcont {
+    //     display: flex;
+    //     justify-content: center;
+    //     position: relative;
+    //     top: 50%;
+    //     img {
+    //         width: 58px;
+    //         height: 58px;
+    //     }
+    // }
 
-    &__logo {
-        padding: 100px 0 0 0;
-        @media (max-width: 900px) {
-            padding: 50px 0 0 0;
-        }
-    }
+    // &__logo {
+    //     padding: 100px 0 0 0;
+    //     @media (max-width: 900px) {
+    //         padding: 50px 0 0 0;
+    //     }
+    // }
 
     &__text {
         margin: 50px 0 0 0;
@@ -366,6 +366,10 @@ main {
         @media (max-width: 900px) {
             margin: 30px 0 0 0;
         }
+        // padding: 100px 0 0 0;
+        // @media (max-width: 900px) {
+        //     padding: 50px 0 0 0;
+        // }
     }
 
     &__subtexts {

@@ -440,28 +440,6 @@ main {
 .capabilities__container {
   max-height: 1810px;
 }
-.capabilities__logcont {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-  top: 50%;
-}
-.capabilities__logcont img {
-  width: 58px;
-  height: 58px;
-}
-.capabilities__logo {
-  padding: 100px 0 0 0;
-}
-@media (max-width: 900px) {
-  .capabilities__logo {
-    padding: 50px 0 0 0;
-  }
-}
 .capabilities__text {
   margin: 50px 0 0 0;
   color: #515151;
