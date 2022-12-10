@@ -447,6 +447,8 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+  top: 50%;
 }
 .capabilities__logcont img {
   width: 58px;
