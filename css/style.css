@@ -805,6 +805,10 @@ main {
   position: relative;
   top: 15px;
 }
+.glasses__glass img {
+  width: 113px;
+  height: 102px;
+}
 @media (max-width: 920px) {
   .glasses__glass {
     display: -webkit-box;
@@ -1329,10 +1333,12 @@ main {
   color: #484848;
 }
 .blok__details a::after {
-  content: url(https://i.ibb.co/qxL7wm6/arrow.webp);
+  content: url(https://imgur.com/2ceupsf.png);
   position: relative;
   top: 3.5px;
   left: 7px;
+  height: 16px;
+  width: 12px;
 }
 
 /*-----------------------------------------------------------------*/
